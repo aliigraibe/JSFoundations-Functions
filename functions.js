@@ -9,7 +9,7 @@
 function greet(name) {
   console.log(`Hello ${name}`)
 }
-greet(`ali`)
+greet(`ali`);
 /**
  * isOdd(n):
  * - receives a number n
@@ -24,8 +24,7 @@ function isOdd(n) {
   return false
 else return true
 }
-x = isOdd(5)
-console.log(x)
+isOdd(5)
 /**
  * oddsSmallerThan(n):
  * - receives a number n
@@ -37,7 +36,8 @@ console.log(x)
  */
 function oddsSmallerThan(n) {
   if(isOdd(n))
-  return(n-1)/2
+  return (n-1)/2
+  else return n/2
 }
 console.log(oddsSmallerThan(7))
 console.log(oddsSmallerThan(15))
